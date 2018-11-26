@@ -14,10 +14,10 @@ Implementation notes:
 
 This application is using below technology stack:
 
-Java 8
-Maven
-simpleflatmappercsv
-java mail api
+Java 8,
+Maven,
+simpleflatmappercsv,
+java mail api,
 Junits
 
 Details:
