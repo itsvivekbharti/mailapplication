@@ -25,3 +25,5 @@ Details:
 The jar is executed with a csv file path as parameter. If the path and file is valid the application will read the csv line by line map to the person object and a job is queued to the custom thread pool(JobExecuter class) in the application.
 
 This way csv file is being read line by line and the mail sending is done in parallel hence the objects created by csv are short lived till the mail is sent so that we do not get OutOfMemory if the number of objects are large and parallel processing ensures that the csv read and mail sending activities go on in parallel to enhance the performance.
+
+Sample Person data csv can be found in the root of the repository.
